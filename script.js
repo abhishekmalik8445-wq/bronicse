@@ -2,7 +2,7 @@
 // Initialize variables
 let currentStep = 1;
 const totalSteps = 6;
-let userName = "My Love";
+let userName = "Ayushi (Chuii Muii)";
 
 
 // Initialize particles.js
@@ -347,16 +347,13 @@ function createPetals() {
 // Function to type out message
 function typeMessage() {
     const messages = [
-        `Dear ${userName},`,
-        "On your special day, I want you to know...",
-        "You are the most amazing person I've ever met.",
-        "Your smile brightens my darkest days.",
-        "Your laugh is my favorite sound in the world.",
-        "Your love gives me strength and happiness.",
-        "I'm so grateful to have you in my life.",
-        "May this year bring you all the joy you deserve.",
-        "You deserve the world and more.",
-        "Happy Birthday, my love! ❤"
+        `Happy Birthday Ayushi! 🎉`,
+        `(Chuii Muii) 😄`,
+        `You remember literally everything…`,
+        `So I have to be extra nice today 😅`,
+        `But honestly, with that memory and that smile,`,
+        `You're kind of dangerously charming 😏`,
+        `Happy Birthday Masha 🎂✨`
     ];
     
     const typingText = document.getElementById('typingText');
@@ -453,9 +450,8 @@ function createFirework() {
 
 // Function to set countdown
 function setCountdown() {
-    // Set target date (next 24 hours from now)
-    const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 1);
+    // Set target date to Ayushi's birthday - March 13, 2026
+    const targetDate = new Date('2026-03-13T00:00:00');
     
     function updateCountdown() {
         const now = new Date();
